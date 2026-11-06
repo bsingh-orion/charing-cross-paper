@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Charing Cross Car Care Center · Baltimore</title>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,560;9..144,640&family=Outfit:wght@400;500;600&display=swap" />
+  <style>
+    * { box-sizing: border-box; }
+    body { margin: 0; font-family: Outfit, sans-serif; color: #1c1917; background: #fff; }
+    a { color: #c8102e; }
+    .bar { height: 4px; background: #c8102e; }
+    header { display: flex; justify-content: space-between; align-items: center; gap: 16px; padding: 16px 20px; border-bottom: 1px solid rgba(28,25,23,.12); position: sticky; top: 0; background: #fff; }
+    .name { font-family: Fraunces, serif; font-size: 22px; }
+    .sub { display: block; font-size: 11px; letter-spacing: .16em; text-transform: uppercase; color: #5c564e; }
+    .call { background: #c8102e; color: #fff; text-decoration: none; padding: 12px 16px; font-weight: 600; }
+    .wrap { max-width: 980px; margin: 0 auto; padding: 0 20px; }
+    h1 { font-family: Fraunces, serif; font-weight: 560; font-size: clamp(46px, 8vw, 80px); line-height: .95; margin: 12px 0; }
+    h1 em { font-style: italic; color: #c8102e; }
+    .kicker { letter-spacing: .18em; text-transform: uppercase; font-size: 12px; color: #c8102e; }
+    .lede { font-size: 18px; max-width: 38rem; color: #5c564e; line-height: 1.5; }
+    .hero { display: grid; gap: 28px; padding: 48px 0 20px; }
+    .services { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); border-top: 1px solid rgba(28,25,23,.12); margin-top: 28px; }
+    article { padding: 16px 12px 18px 0; border-bottom: 1px solid rgba(28,25,23,.12); }
+    article h2 { font-size: 18px; margin: 0 0 6px; }
+    article p { margin: 0; color: #5c564e; }
+    table { width: 100%; border-collapse: collapse; }
+    th, td { text-align: left; padding: 10px 0; border-top: 1px solid rgba(28,25,23,.12); }
+    td { text-align: right; }
+    .map { position: relative; height: 280px; border: 1px solid rgba(28,25,23,.15); margin: 12px 0 36px; }
+    .map iframe { position: absolute; inset: 0; width: 100%; height: 100%; border: 0; }
+    footer { border-top: 4px solid #c8102e; padding: 28px 20px 80px; }
+    .dock { display: none; }
+    @media (min-width: 800px) { .hero { grid-template-columns: 1.3fr .7fr; } }
+    @media (max-width: 700px) {
+      .dock { display: block; position: fixed; left: 0; right: 0; bottom: 0; background: #fff; padding: 12px; border-top: 1px solid rgba(28,25,23,.12); }
+      .dock a { display: flex; height: 48px; align-items: center; justify-content: center; background: #c8102e; color: #fff; text-decoration: none; font-weight: 600; }
+    }
+  </style>
+</head>
+<body>
+  <div class="bar"></div>
+  <header>
+    <div><span class="name">Charing Cross</span><span class="sub">Car Care Center</span></div>
+    <a class="call" href="tel:+14107886111">(410) 788-6111</a>
+  </header>
+  <main class="wrap">
+    <section class="hero">
+      <div>
+        <p class="kicker">West Baltimore · since 1984</p>
+        <h1>Where we care about <em>your car</em>.</h1>
+        <p class="lede">Independent repairs at 5204 Baltimore National Pike. Domestic and import. An honest look first, and a price before any work starts. Maryland emissions facility #5152. Jasper engines and transmissions.</p>
+      </div>
+      <div>
+        <p class="kicker" id="status">Hours</p>
+        <p style="font-family:Fraunces,serif;font-size:32px;margin:8px 0;">Monday–Friday, 7 to 6.</p>
+        <p class="lede">Saturday and Sunday closed. Five lights from the beltway, in the Charing Cross Shopping Center.</p>
+      </div>
+    </section>
+    <section class="services">
+      <article><h2>Honest look</h2><p>What is due, and what can wait.</p></article>
+      <article><h2>Oil and fluids</h2><p>The service that keeps a car going.</p></article>
+      <article><h2>Brakes</h2><p>Pads, rotors, and hardware.</p></article>
+      <article><h2>Check engine</h2><p>A computer diagnostic, not a guess.</p></article>
+      <article><h2>Exhaust and emissions</h2><p>Facility #5152 if the test failed.</p></article>
+      <article><h2>Engine or transmission</h2><p>Analysis first. Jasper if it is done.</p></article>
+    </section>
+    <section class="hero">
+      <div>
+        <h2 style="font-family:Fraunces,serif;font-size:40px;margin:0 0 8px;">Five lights from the beltway.</h2>
+        <p>5204 Baltimore National Pike<br>Baltimore, MD 21229</p>
+        <p><a href="https://www.google.com/maps/search/?api=1&query=5204+Baltimore+National+Pike+Baltimore+MD+21229">Open directions</a></p>
+      </div>
+      <table>
+        <tr><th>Monday–Friday</th><td>7:00 AM – 6:00 PM</td></tr>
+        <tr><th>Saturday</th><td>Closed</td></tr>
+        <tr><th>Sunday</th><td>Closed</td></tr>
+      </table>
+    </section>
+    <div class="map">
+      <iframe title="Map of Charing Cross Car Care Center" src="https://maps.google.com/maps?q=5204+Baltimore+National+Pike,+Baltimore,+MD+21229&z=16&output=embed"></iframe>
+    </div>
+  </main>
+  <footer>Visa, Mastercard, Discover. Fax (410) 788-0091. Laury McGowan and Darren Terzi, since 1984.</footer>
+  <div class="dock"><a href="tel:+14107886111">Call (410) 788-6111</a></div>
+  <script>
+    const parts = new Intl.DateTimeFormat("en-US",{timeZone:"America/New_York",weekday:"short",hour:"2-digit",minute:"2-digit",hourCycle:"h23"}).formatToParts(new Date());
+    const day = (parts.find(p=>p.type==="weekday")||{}).value||"";
+    const hour = Number((parts.find(p=>p.type==="hour")||{}).value||0);
+    const open = ["Mon","Tue","Wed","Thu","Fri"].includes(day.slice(0,3)) && hour>=7 && hour<18;
+    document.getElementById("status").textContent = open ? "Open now" : "Closed now";
+  </script>
+</body>
+</html>
